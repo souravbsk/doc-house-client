@@ -1,0 +1,36 @@
+[
+    {
+      "doctorName": "Dr Karyen Anderson",
+      "picture": "https://i.ibb.co/sjBBfLT/Rectangle-15.png",
+      "title": "Senior Physiotherapist",
+      "rating": 4.5,
+      "address": "Dhaka, Bangladesh",
+      "availableDate": "2023-06-01",
+      "price": "$200",
+      "id": "1",
+      "doctorId": "DOC001"
+    },
+    {
+      "doctorName": "Dr. Emily Johnson",
+      "picture": "https://i.ibb.co/4VkJkPq/Rectangle-15-1.png",
+      "title": "Dermatologist",
+      "rating": 4.8,
+      "address": "Chittagong, Bangladesh",
+      "availableDate": "2023-06-02",
+      "price": "$150",
+      "id": "2",
+      "doctorId": "DOC002"
+    },
+    {
+      "doctorName": "Dr. Sonia Brown",
+      "picture": "https://i.ibb.co/Jj39vFn/Rectangle-15-2.png",
+      "title": "Orthopedic Surgeon",
+      "rating": 4.2,
+      "address": "Sylhet, Bangladesh",
+      "availableDate": "2023-06-03",
+      "price": "$300",
+      "id": "3",
+      "doctorId": "DOC003"
+    }
+  ]
+  
