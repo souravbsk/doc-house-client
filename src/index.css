@@ -7,11 +7,11 @@ body{
     font-family: 'Source Sans 3', sans-serif;
 }
 .container{
-    @apply max-w-full w-10/12 mx-auto;
+    @apply max-w-full md:w-10/12 md:px-0 px-3 mx-auto;
 }
 
 .st{
-    @apply mt-32
+    @apply md:mt-32 mt-8
 }
 .primary-btn{
     @apply btn 
@@ -50,4 +50,23 @@ border-radius: 8px !important;
 .swiper-button-next:hover, .swiper-button-prev:hover{
     background-color: #F7A582 !important;
     color: white !important;
+}
+
+.login-bg{
+    background-image: url("./assets/Login/bg-login.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+
+
+@media only screen and (max-width: 500px){
+    .banner-bg{
+        background-size: 150px, 100px;
+        background-position: top left, 75% 25%;
+    }
+    .login-bg{
+        background-size: 200px;
+    }
+   
 }

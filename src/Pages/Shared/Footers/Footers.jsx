@@ -6,16 +6,16 @@ const Footers = () => {
   return (
     <div className="st bg-[#F3F3F3]">
       <footer className="container">
-        <div className="footer pt-32 pb-10  py text-base-content">
-          <div className="">
+        <div className="footer pt-8 md:pt-32 pb-10  text-base-content">
+          <div className="md:justify-items-start justify-items-center">
             <Link>
               <img
-                className="max-w-full w-56 h-14 object-fill"
+                className="max-w-full w-40 md:w-56 h-10 md:h-14 object-fill"
                 src={footerBrand}
                 alt=""
               />
             </Link>
-            <p className="my-4">
+            <p className="my-4 md:text-start text-center">
               Lorem Ipsum is simply dummy text of
               <br /> the printing and typesetting industry. has been <br />{" "}
               since the printer took.

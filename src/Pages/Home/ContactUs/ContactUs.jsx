@@ -7,10 +7,10 @@ const ContactUs = () => {
     <section className="st">
       <div className="container bg-[#07332F] rounded-lg">
         <div className=" ">
-          <div className="hero-content p-[100px] flex flex-col md:flex-row">
+          <div className="hero-content px-6 py-8 md:p-[100px] flex flex-col md:flex-row">
             <div className="text-center text-white lg:text-left">
-              <h1 className="text-4xl font-bold">Contact With Us</h1>
-              <p className="py-6 text-sm text-gray-300 font-thin">
+              <h1 className="text-2xl mdtext-4xl font-bold">Contact With Us</h1>
+              <p className="py-3 md;py-6 text-sm text-gray-300 font-thin">
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                 accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
                 quae ab illo inve ntore veritatis et quasi.
@@ -28,7 +28,7 @@ const ContactUs = () => {
             </div>
             <div className="card w-full ">
               <div className="card-body">
-                <div className="flex gap-5 items-center justify-between mb-6">
+                <div className="flex-col md:flex-row flex gap-3 md:gap-5 items-center justify-between mb-1 md:mb-6">
                   <div className="form-control">
                     <input
                       type="text"
@@ -44,7 +44,7 @@ const ContactUs = () => {
                     />
                   </div>
                 </div>
-                <div className="flex gap-5 items-center justify-between mb-6">
+                <div className="flex-col md:flex-row flex gap-3 md:gap-5 items-center justify-between mb-1 md:mb-6">
                   <div className="form-control">
                     <input
                       type="text"
@@ -60,7 +60,7 @@ const ContactUs = () => {
                     />
                   </div>
                 </div>
-                <div className="flex gap-5 items-center justify-between mb-6">
+                <div className="flex-col md:flex-row flex gap-3 md:gap-5 items-center justify-between mb-1 md:mb-6">
                   <div className="form-control w-full">
                     <input
                       type="date"

@@ -21,16 +21,30 @@ const ReviewSection = () => {
 
         <div>
           <Swiper
-            slidesPerView={2}
-            spaceBetween={30}
+            slidesPerView={1}
+            spaceBetween={10}
             loop={true}
             navigation={true} 
+            breakpoints={{
+              640: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+              },
+              768: {
+                slidesPerView: 2,
+                spaceBetween: 30,
+              },
+              1024: {
+                slidesPerView: 2,
+                spaceBetween: 30,
+              },
+            }}
             modules={[Navigation]}
             className="mySwiper"
           >
             <SwiperSlide>
-              <div className="p-[50px] relative border rounded-lg">
-                <div className="flex items-center mb-7 gap-5">
+              <div className="  p-7 md:p-[50px] relative border rounded-lg">
+                <div className="flex items-center mb-4 md:mb-7 gap-5">
                   <div className="avatar">
                     <div className="w-14 border-2 border-[#F7A582] rounded-full ring-primary ring-offset-base-100 ring-offset-2">
                       <img src={userOne} />
@@ -47,14 +61,14 @@ const ReviewSection = () => {
                   and scrambled it to make type specimen book has survived not
                   only five centurines.
                 </p>
-                <div className="absolute top-16 right-16">
+                <div className="md:absolute top-16 right-16">
                     <BsQuote className="text-6xl text-[#F7A582]"></BsQuote>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="p-[50px] relative border rounded-lg">
-                <div className="flex items-center mb-7 gap-5">
+              <div className=" p-7 md:p-[50px] relative border rounded-lg">
+                <div className="flex items-center mb-4 md:mb-7 gap-5">
                   <div className="avatar">
                     <div className="w-14 border-2 border-[#F7A582] rounded-full ring-primary ring-offset-base-100 ring-offset-2">
                       <img src={userTwo} />
@@ -71,14 +85,14 @@ const ReviewSection = () => {
                   and scrambled it to make type specimen book has survived not
                   only five centurines.
                 </p>
-                <div className="absolute top-16 right-16">
+                <div className="md:absolute top-16 right-16">
                     <BsQuote className="text-6xl text-[#F7A582]"></BsQuote>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="p-[50px] relative border rounded-lg">
-                <div className="flex items-center mb-7 gap-5">
+              <div className=" p-7 md:p-[50px] relative border rounded-lg">
+                <div className="flex items-center mb-4 md:mb-7 gap-5">
                   <div className="avatar">
                     <div className="w-14 border-2 border-[#F7A582] rounded-full ring-primary ring-offset-base-100 ring-offset-2">
                       <img src={userOne} />
@@ -95,14 +109,14 @@ const ReviewSection = () => {
                   and scrambled it to make type specimen book has survived not
                   only five centurines.
                 </p>
-                <div className="absolute top-16 right-16">
+                <div className="md:absolute top-16 right-16">
                     <BsQuote className="text-6xl text-[#F7A582]"></BsQuote>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="p-[50px] relative border rounded-lg">
-                <div className="flex items-center mb-7 gap-5">
+              <div className=" p-7 md:p-[50px] relative border rounded-lg">
+                <div className="flex items-center mb-4 md:mb-7 gap-5">
                   <div className="avatar">
                     <div className="w-14 border-2 border-[#F7A582] rounded-full ring-primary ring-offset-base-100 ring-offset-2">
                       <img src={userTwo} />
@@ -119,14 +133,14 @@ const ReviewSection = () => {
                   and scrambled it to make type specimen book has survived not
                   only five centurines.
                 </p>
-                <div className="absolute top-16 right-16">
+                <div className="md:absolute top-16 right-16">
                     <BsQuote className="text-6xl text-[#F7A582]"></BsQuote>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="p-[50px] relative border rounded-lg">
-                <div className="flex items-center mb-7 gap-5">
+              <div className=" p-7 md:p-[50px] relative border rounded-lg">
+                <div className="flex items-center mb-4 md:mb-7 gap-5">
                   <div className="avatar">
                     <div className="w-14 border-2 border-[#F7A582] rounded-full ring-primary ring-offset-base-100 ring-offset-2">
                       <img src={userOne} />
@@ -143,14 +157,14 @@ const ReviewSection = () => {
                   and scrambled it to make type specimen book has survived not
                   only five centurines.
                 </p>
-                <div className="absolute top-16 right-16">
+                <div className="md:absolute top-16 right-16">
                     <BsQuote className="text-6xl text-[#F7A582]"></BsQuote>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="p-[50px] relative border rounded-lg">
-                <div className="flex items-center mb-7 gap-5">
+              <div className=" p-7 md:p-[50px] relative border rounded-lg">
+                <div className="flex items-center mb-4 md:mb-7 gap-5">
                   <div className="avatar">
                     <div className="w-14 border-2 border-[#F7A582] rounded-full ring-primary ring-offset-base-100 ring-offset-2">
                       <img src={userTwo} />
@@ -167,7 +181,7 @@ const ReviewSection = () => {
                   and scrambled it to make type specimen book has survived not
                   only five centurines.
                 </p>
-                <div className="absolute top-16 right-16">
+                <div className="md:absolute top-16 right-16">
                     <BsQuote className="text-6xl text-[#F7A582]"></BsQuote>
                 </div>
               </div>
