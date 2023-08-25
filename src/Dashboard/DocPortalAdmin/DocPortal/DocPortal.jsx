@@ -1,7 +1,6 @@
 import React from 'react';
 import { AiOutlineUser } from 'react-icons/ai';
 import { HiOutlineUser, HiOutlineUsers } from 'react-icons/hi2';
-
 const DocPortal = () => {
     return (
         <div>
@@ -13,7 +12,7 @@ const DocPortal = () => {
                     </p>
                     <h2 className='text-5xl text-[#6c6b6b] font-semibold'>168</h2>
                 </div>
-                <p className='text-2xl pt-4 text-[#6c6b6b] font-medium'>Doctor</p>
+                <p className='text-2xl pt-4 text-[#6c6b6b] font-medium'>Doctors</p>
                 </div>
                 <div className='bg-white px-8 rounded-lg py-8'>
                 <div className='flex border-b-4 pb-8 border-b-[#7bb13c] items-center gap-3'>
