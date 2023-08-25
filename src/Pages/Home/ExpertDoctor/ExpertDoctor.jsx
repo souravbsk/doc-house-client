@@ -16,7 +16,7 @@ const ExpertDoctor = () => {
         <SectionTitle sectionTitle={sectionTitle}></SectionTitle>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {doctors.map((doc) => (
-            <DocCard doc={doc} key={doc.id}></DocCard>
+            <DocCard doc={doc} key={doc._id}></DocCard>
           ))}
         </div>
       </div>

@@ -1,36 +1,184 @@
 [
-    {
-      "doctorName": "Dr Karyen Anderson",
-      "picture": "https://i.ibb.co/sjBBfLT/Rectangle-15.png",
-      "title": "Senior Physiotherapist",
-      "rating": 4.5,
-      "address": "Dhaka, Bangladesh",
-      "availableDate": "2023-06-01",
-      "price": "$200",
-      "id": "1",
-      "doctorId": "DOC001"
+  {
+    "doctorName": "Dr Karyen Anderson",
+    "picture": "https://i.ibb.co/sjBBfLT/Rectangle-15.png",
+    "title": "Senior Physiotherapist",
+    "rating": 4.5,
+    "address": "Dhaka, Bangladesh",
+    "availableDate": "2023-06-01",
+    "price": 200,
+    "tag": ["dental", "teth wasing"],
+    "doctorId": "DOC001",
+    "reviewCount": 25,
+    "overView": {
+      "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "workExperience": [
+        {
+          "clinicName": "Rehabilitation Center",
+          "year": "2007-present"
+        }
+      ],
+      "education": [
+        {
+          "universityName": "ABC University",
+          "studyYear": "2000-2004",
+          "degree": "Bachelor of Physiotherapy"
+        },
+        {
+          "universityName": "XYZ University",
+          "studyYear": "2005-2007",
+          "degree": "Master of Sports Physiotherapy"
+        }
+      ],
+      "awards": [
+        {
+          "date": "2010-05-15",
+          "awardName": "Best Physiotherapist of the Year",
+          "awardDescription": "Recognized for outstanding contributions to the field of physiotherapy."
+        }
+      ],
+      "services": [
+        "Sports Injury Rehabilitation",
+        "Orthopedic Physiotherapy",
+        "Geriatric Physiotherapy"
+      ],
+      "specializations": [
+        "Sports Injuries",
+        "Musculoskeletal Disorders",
+        "Post-surgical Rehabilitation"
+      ]
     },
-    {
-      "doctorName": "Dr. Emily Johnson",
-      "picture": "https://i.ibb.co/4VkJkPq/Rectangle-15-1.png",
-      "title": "Dermatologist",
-      "rating": 4.8,
-      "address": "Chittagong, Bangladesh",
-      "availableDate": "2023-06-02",
-      "price": "$150",
-      "id": "2",
-      "doctorId": "DOC002"
-    },
-    {
-      "doctorName": "Dr. Sonia Brown",
-      "picture": "https://i.ibb.co/Jj39vFn/Rectangle-15-2.png",
-      "title": "Orthopedic Surgeon",
-      "rating": 4.2,
-      "address": "Sylhet, Bangladesh",
-      "availableDate": "2023-06-03",
-      "price": "$300",
-      "id": "3",
-      "doctorId": "DOC003"
+
+    "businessHours": {
+      "Monday": "9:00 AM - 5:00 PM",
+      "Tuesday": "9:00 AM - 5:00 PM",
+      "Wednesday": "9:00 AM - 1:00 PM",
+      "Thursday": "9:00 AM - 5:00 PM",
+      "Friday": "9:00 AM - 5:00 PM",
+      "Saturday": "Closed",
+      "Sunday": "Closed"
     }
-  ]
-  
+  },
+  {
+    "doctorName": "Dr. Emily Johnson",
+    "picture": "https://i.ibb.co/4VkJkPq/Rectangle-15-1.png",
+    "title": "Dermatologist",
+    "rating": 4.8,
+    "address": "Chittagong, Bangladesh",
+    "availableDate": "2023-06-02",
+    "price": 150,
+    "tag": ["dental", "teth wasing"],
+    "doctorId": "DOC002",
+    "reviewCount": 52,
+
+    "overView": {
+      "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+
+      "education": [
+        {
+          "universityName": "ABC University",
+          "studyYear": "2000-2004",
+          "degree": "Bachelor of Physiotherapy"
+        },
+        {
+          "universityName": "XYZ University",
+          "studyYear": "2005-2007",
+          "degree": "Master of Sports Physiotherapy"
+        }
+      ],
+      "awards": [
+        {
+          "date": "2010-05-15",
+          "awardName": "Best Physiotherapist of the Year",
+          "awardDescription": "Recognized for outstanding contributions to the field of physiotherapy."
+        }
+      ],
+      "workExperience": [
+        {
+          "clinicName": "Rehabilitation Center",
+          "year": "2007-present"
+        }
+      ],
+      "services": [
+        "Sports Injury Rehabilitation",
+        "Orthopedic Physiotherapy",
+        "Geriatric Physiotherapy"
+      ],
+      "specializations": [
+        "Sports Injuries",
+        "Musculoskeletal Disorders",
+        "Post-surgical Rehabilitation"
+      ]
+    },
+
+    "businessHours": {
+      "Monday": "9:00 AM - 5:00 PM",
+      "Tuesday": "9:00 AM - 5:00 PM",
+      "Wednesday": "9:00 AM - 1:00 PM",
+      "Thursday": "9:00 AM - 5:00 PM",
+      "Friday": "9:00 AM - 5:00 PM",
+      "Saturday": "Closed",
+      "Sunday": "Closed"
+    }
+  },
+  {
+    "doctorName": "Dr. Sonia Brown",
+    "picture": "https://i.ibb.co/Jj39vFn/Rectangle-15-2.png",
+    "title": "Orthopedic Surgeon",
+    "rating": 4.2,
+    "address": "Sylhet, Bangladesh",
+    "availableDate": "2023-06-03",
+    "price": 300,
+    "tag": ["dental", "teth wasing"],
+    "doctorId": "DOC003",
+    "reviewCount": 37,
+    "overView": {
+      "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "education": [
+        {
+          "universityName": "DEF University",
+          "studyYear": "2001-2007",
+          "degree": "Bachelor of Medicine, Bachelor of Surgery (MBBS)"
+        },
+        {
+          "universityName": "GHI University",
+          "studyYear": "2008-2013",
+          "degree": "Master of Surgery (MS) in Orthopedics"
+        }
+      ],
+      "awards": [
+        {
+          "date": "2015-08-10",
+          "awardName": "Excellence in Orthopedic Surgery",
+          "awardDescription": "Recognized for outstanding surgical skills and patient care in the field of orthopedics."
+        }
+      ],
+      "workExperience": [
+        {
+          "clinicName": "OrthoCare Hospital",
+          "year": "2013-present"
+        }
+      ],
+      "services": [
+        "Joint Replacement Surgery",
+        "Fracture Management",
+        "Arthroscopy"
+      ],
+      "specializations": [
+        "Joint and Bone Disorders",
+        "Sports Injuries",
+        "Trauma and Fracture Management"
+      ]
+    },
+
+    "businessHours": {
+      "Monday": "8:00 AM - 5:00 PM",
+      "Tuesday": "8:00 AM - 5:00 PM",
+      "Wednesday": "8:00 AM - 1:00 PM",
+      "Thursday": "8:00 AM - 5:00 PM",
+      "Friday": "8:00 AM - 5:00 PM",
+      "Saturday": "Closed",
+      "Sunday": "Closed"
+    }
+  }
+]

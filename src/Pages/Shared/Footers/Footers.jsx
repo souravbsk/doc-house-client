@@ -7,7 +7,7 @@ const Footers = () => {
     <div className="st bg-[#F3F3F3]">
       <footer className="container">
         <div className="footer pt-8 md:pt-32 pb-10  text-base-content">
-          <div className="md:justify-items-start justify-items-center">
+          <div className="w-full md:justify-items-start justify-items-center">
             <Link>
               <img
                 className="max-w-full w-40 md:w-56 h-10 md:h-14 object-fill"

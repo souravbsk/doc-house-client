@@ -3,8 +3,8 @@ import { useEffect, useState } from "react";
 const useFatch = () => {
     const [doctors,setDoctors] = useState([])
     useEffect(() => {
-        fetch("/doc.json")
-        .then(res => res.json(99))
+        fetch("http://localhost:5000/doctors")
+        .then(res => res.json())
         .then(data => {
             setDoctors(data)
         })

@@ -1,0 +1,219 @@
+[
+    {
+      "serviceName": "Teeth Orthodontics",
+      "serviceIcon": "https://i.ibb.co/p4mc4yW/icon1.png",
+      "slots": [
+        {
+
+          "slotName": "Teeth Orthodontics",
+          "serviceIcon": "https://i.ibb.co/ZNhRh7Y/slot1.png",
+          "appointmentSlotTime": "8:00 AM - 9:00 AM"
+        },
+        {
+
+          "slotName": "Cosmetic Dentistry",
+          "serviceIcon": "https://i.ibb.co/sPrR4Gk/slot5.png",
+          "appointmentSlotTime": "8:30 AM - 9:30 AM"
+        },
+        {
+
+          "slotName": "Teeth Cleaning",
+          "serviceIcon": "https://i.ibb.co/C1zdVKr/slot4.png",
+          "appointmentSlotTime": "9:00 AM - 10:00 AM"
+        },
+        {
+
+          "slotName": "Teeth Orthodontics",
+          "serviceIcon": "https://i.ibb.co/1sWCxmV/slot3.png",
+          "appointmentSlotTime": "9:30 AM - 10:30 AM"
+        },
+        {
+
+          "slotName": "Teeth Orthodontics",
+          "serviceIcon": "https://i.ibb.co/2sbcFbW/slot2.png",
+          "appointmentSlotTime": "10:00 AM - 11:00 AM"
+        }
+      ]
+    },
+    {
+      "serviceName": "Cosmetic Dentisty",
+      "serviceIcon": "https://i.ibb.co/5RW1Zc3/icon2.png",
+     "slots": [
+        {
+
+          "slotName": "Teeth Orthodontics",
+          "serviceIcon": "https://i.ibb.co/ZNhRh7Y/slot1.png",
+          "appointmentSlotTime": "8:00 AM - 9:00 AM"
+        },
+        {
+
+          "slotName": "Cosmetic Dentistry",
+          "serviceIcon": "https://i.ibb.co/sPrR4Gk/slot5.png",
+          "appointmentSlotTime": "8:30 AM - 9:30 AM"
+        },
+        {
+
+          "slotName": "Teeth Cleaning",
+          "serviceIcon": "https://i.ibb.co/C1zdVKr/slot4.png",
+          "appointmentSlotTime": "9:00 AM - 10:00 AM"
+        },
+        {
+
+          "slotName": "Teeth Orthodontics",
+          "serviceIcon": "https://i.ibb.co/1sWCxmV/slot3.png",
+          "appointmentSlotTime": "9:30 AM - 10:30 AM"
+        },
+        {
+
+          "slotName": "Teeth Orthodontics",
+          "serviceIcon": "https://i.ibb.co/2sbcFbW/slot2.png",
+          "appointmentSlotTime": "10:00 AM - 11:00 AM"
+        }
+      ]
+    },
+    {
+      "serviceName": "Teeth Cleaning",
+      "serviceIcon": "doctor-icon",
+     "slots": [
+        {
+
+          "slotName": "Teeth Orthodontics",
+          "serviceIcon": "https://i.ibb.co/ZNhRh7Y/slot1.png",
+          "appointmentSlotTime": "8:00 AM - 9:00 AM"
+        },
+        {
+
+          "slotName": "Cosmetic Dentistry",
+          "serviceIcon": "https://i.ibb.co/sPrR4Gk/slot5.png",
+          "appointmentSlotTime": "8:30 AM - 9:30 AM"
+        },
+        {
+
+          "slotName": "Teeth Cleaning",
+          "serviceIcon": "https://i.ibb.co/C1zdVKr/slot4.png",
+          "appointmentSlotTime": "9:00 AM - 10:00 AM"
+        },
+        {
+
+          "slotName": "Teeth Orthodontics",
+          "serviceIcon": "https://i.ibb.co/1sWCxmV/slot3.png",
+          "appointmentSlotTime": "9:30 AM - 10:30 AM"
+        },
+        {
+
+          "slotName": "Teeth Orthodontics",
+          "serviceIcon": "https://i.ibb.co/2sbcFbW/slot2.png",
+          "appointmentSlotTime": "10:00 AM - 11:00 AM"
+        }
+      ]
+    },
+    {
+      "serviceName": "Cavity Protection",
+      "serviceIcon": "https://i.ibb.co/0227DKz/icon4.png",
+     "slots": [
+        {
+
+          "slotName": "Teeth Orthodontics",
+          "serviceIcon": "https://i.ibb.co/ZNhRh7Y/slot1.png",
+          "appointmentSlotTime": "8:00 AM - 9:00 AM"
+        },
+        {
+
+          "slotName": "Cosmetic Dentistry",
+          "serviceIcon": "https://i.ibb.co/sPrR4Gk/slot5.png",
+          "appointmentSlotTime": "8:30 AM - 9:30 AM"
+        },
+        {
+
+          "slotName": "Teeth Cleaning",
+          "serviceIcon": "https://i.ibb.co/C1zdVKr/slot4.png",
+          "appointmentSlotTime": "9:00 AM - 10:00 AM"
+        },
+        {
+
+          "slotName": "Teeth Orthodontics",
+          "serviceIcon": "https://i.ibb.co/1sWCxmV/slot3.png",
+          "appointmentSlotTime": "9:30 AM - 10:30 AM"
+        },
+        {
+
+          "slotName": "Teeth Orthodontics",
+          "serviceIcon": "https://i.ibb.co/2sbcFbW/slot2.png",
+          "appointmentSlotTime": "10:00 AM - 11:00 AM"
+        }
+      ]
+    },
+    {
+      "serviceName": "Pediatric Dental",
+      "serviceIcon": "https://i.ibb.co/0GXvs58/icon5.png",
+     "slots": [
+        {
+
+          "slotName": "Teeth Orthodontics",
+          "serviceIcon": "https://i.ibb.co/ZNhRh7Y/slot1.png",
+          "appointmentSlotTime": "8:00 AM - 9:00 AM"
+        },
+        {
+
+          "slotName": "Cosmetic Dentistry",
+          "serviceIcon": "https://i.ibb.co/sPrR4Gk/slot5.png",
+          "appointmentSlotTime": "8:30 AM - 9:30 AM"
+        },
+        {
+
+          "slotName": "Teeth Cleaning",
+          "serviceIcon": "https://i.ibb.co/C1zdVKr/slot4.png",
+          "appointmentSlotTime": "9:00 AM - 10:00 AM"
+        },
+        {
+
+          "slotName": "Teeth Orthodontics",
+          "serviceIcon": "https://i.ibb.co/1sWCxmV/slot3.png",
+          "appointmentSlotTime": "9:30 AM - 10:30 AM"
+        },
+        {
+
+          "slotName": "Teeth Orthodontics",
+          "serviceIcon": "https://i.ibb.co/2sbcFbW/slot2.png",
+          "appointmentSlotTime": "10:00 AM - 11:00 AM"
+        }
+      ]
+    },
+    {
+      "serviceName": "Oral Surgery",
+      "serviceIcon": "https://i.ibb.co/zS32g8n/icon6.png",
+     "slots": [
+        {
+
+          "slotName": "Teeth Orthodontics",
+          "serviceIcon": "https://i.ibb.co/ZNhRh7Y/slot1.png",
+          "appointmentSlotTime": "8:00 AM - 9:00 AM"
+        },
+        {
+
+          "slotName": "Cosmetic Dentistry",
+          "serviceIcon": "https://i.ibb.co/sPrR4Gk/slot5.png",
+          "appointmentSlotTime": "8:30 AM - 9:30 AM"
+        },
+        {
+
+          "slotName": "Teeth Cleaning",
+          "serviceIcon": "https://i.ibb.co/C1zdVKr/slot4.png",
+          "appointmentSlotTime": "9:00 AM - 10:00 AM"
+        },
+        {
+
+          "slotName": "Teeth Orthodontics",
+          "serviceIcon": "https://i.ibb.co/1sWCxmV/slot3.png",
+          "appointmentSlotTime": "9:30 AM - 10:30 AM"
+        },
+        {
+
+          "slotName": "Teeth Orthodontics",
+          "serviceIcon": "https://i.ibb.co/2sbcFbW/slot2.png",
+          "appointmentSlotTime": "10:00 AM - 11:00 AM"
+        }
+      ]
+    }
+  ]
+  

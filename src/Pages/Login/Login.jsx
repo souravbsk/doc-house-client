@@ -7,7 +7,7 @@ import Swal from "sweetalert2";
 const Login = () => {
 const {loginUser} = useContext(AuthContext)
 const [error,setError] = useState('')
-const [disableValue,setDisableValue] = useState(true)
+const [disableValue,setDisableValue] = useState(false)
 const navigate = useNavigate();
   const handleLogin = (e) => {
     e.preventDefault()
@@ -35,20 +35,20 @@ const navigate = useNavigate();
   }
 
 
-  useEffect(() => {
-    loadCaptchaEnginge(6);
-  }, []);
+  // useEffect(() => {
+  //   loadCaptchaEnginge(6);
+  // }, []);
 
-const handleCaptcha = e => {
-  const captchaValue = e.target.value;
-  if (validateCaptcha(captchaValue)) {
-    setDisableValue(false)
-}
+// const handleCaptcha = e => {
+//   const captchaValue = e.target.value;
+//   if (validateCaptcha(captchaValue)) {
+//     setDisableValue(false)
+// }
 
-else {
-  setDisableValue(true)
-}
-}
+// else {
+//   setDisableValue(true)
+// }
+// }
   return (
     <div className="card mx-5 md:mx-24 border rounded-md">
       <div className="card-body">
@@ -86,7 +86,7 @@ else {
               </Link>
             </label>
           </div>
-          <div className="">
+          {/* <div className="">
             <label className="label">
             <LoadCanvasTemplate />
             </label>
@@ -96,7 +96,7 @@ else {
               placeholder="Enter your password"
               className="input bg-base-300 text-sm"
             />
-          </div>
+          </div> */}
           <div className="form-control">
             <button disabled={disableValue} className="btn mt-5 border-0 bg-[#F7A582]">Login</button>
           </div>

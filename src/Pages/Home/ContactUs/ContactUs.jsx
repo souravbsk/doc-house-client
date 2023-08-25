@@ -7,7 +7,7 @@ const ContactUs = () => {
     <section className="st">
       <div className="container bg-[#07332F] rounded-lg">
         <div className=" ">
-          <div className="hero-content px-6 py-8 md:p-[100px] flex flex-col md:flex-row">
+          <div className="hero-content w-full md:mx-auto px-6 py-8 md:p-[100px] flex flex-col md:flex-row">
             <div className="text-center text-white lg:text-left">
               <h1 className="text-2xl mdtext-4xl font-bold">Contact With Us</h1>
               <p className="py-3 md;py-6 text-sm text-gray-300 font-thin">
